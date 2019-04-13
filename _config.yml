@@ -7,7 +7,7 @@ title: 乌丫手札
 subtitle: 一个技术人的随笔及感悟
 description:
 keywords:
-author: Tinkyo
+author: Ooya
 language: zh-CN
 timezone:
 
@@ -26,7 +26,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -79,11 +79,16 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
     type: git
-    repo: git@git.coding.net:tinkyo/tinkyo.git
-    branch: master
+    repo: 
+        github: git@github.com:tinkyo/tinkyo.github.io.git,master
+        coding: git@git.coding.net:tinkyo/tinkyo.git,master
 
 search:
   path: search.xml
   field: post
   format: html
   limit: 10000
+  
+# Extensions
+## Plugins: http://hexo.io/plugins/
+plugins: hexo-generate-feed
