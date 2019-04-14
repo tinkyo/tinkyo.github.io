@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://yoursite.com/hello-world/</loc>
+    <lastmod>2019-04-14</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/Java/</loc>
+    <lastmod>2019-04-14</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/DotNetCore/</loc>
+    <lastmod>2019-04-14</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/DotNet/</loc>
+    <lastmod>2019-04-14</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/Hexo%E4%B9%8B%E5%B7%A5%E5%85%B7%E9%80%89%E6%8B%A9/</loc>
+    <lastmod>2019-04-14</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/Hexo%E5%AE%89%E8%A3%85/</loc>
+    <lastmod>2019-04-14</lastmod>
+  </url>  <url>
+    <loc>http://yoursite.com/Hexo%E4%B9%8BNext%E4%B8%BB%E9%A2%98%E4%BC%98%E5%8C%96/</loc>
+    <lastmod>2019-04-14</lastmod>
+  </url>
+</urlset>

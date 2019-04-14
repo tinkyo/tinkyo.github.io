@@ -145,7 +145,7 @@ $(document).ready(function() {
         begin   : function() {
           $('.sidebar .motion-element').not('.site-state').velocity(
             'transition.slideRightIn', {
-              stagger : 50,
+              stagger : 25,
               drag    : true,
               complete: function() {
                 self.sidebarEl.trigger('sidebar.motion.complete');
@@ -154,7 +154,7 @@ $(document).ready(function() {
           );
           $('.site-state').velocity(
             'transition.slideRightIn', {
-              stagger : 50,
+              stagger : 25,
               drag    : true,
               display : 'flex'
             }
@@ -220,7 +220,7 @@ $(document).ready(function() {
       $brand.length > 0 && sequence.push({
         e: $brand,
         p: {opacity: 1},
-        o: {duration: 200}
+        o: {duration: 100}
       });
 
       /**
@@ -240,7 +240,7 @@ $(document).ready(function() {
           e: $(element),
           p: {translateX: translateX},
           o: {
-            duration     : 500,
+            duration     : 200,
             sequenceQueue: false
           }
         };
@@ -250,7 +250,7 @@ $(document).ready(function() {
         sequence.push({
           e: $image,
           p: {opacity: 1, top: 0},
-          o: {duration: 200}
+          o: {duration: 100}
         });
       }
 
@@ -265,13 +265,13 @@ $(document).ready(function() {
       hasElement($title) && sequence.push({
         e: $title,
         p: {opacity: 1, top: 0},
-        o: {duration: 200}
+        o: {duration: 100}
       });
 
       hasElement($subtitle) && sequence.push({
         e: $subtitle,
         p: {opacity: 1, top: 0},
-        o: {duration: 200}
+        o: {duration: 100}
       });
 
       (NexT.utils.isPisces() || NexT.utils.isGemini()) && hasElement($image) && pushImageToSequence();
@@ -300,7 +300,7 @@ $(document).ready(function() {
 
       $('.menu-item').velocity('transition.slideDownIn', {
         display : null,
-        duration: 200,
+        duration: 100,
         complete: function() {
           integrator.next();
         }
@@ -324,7 +324,7 @@ $(document).ready(function() {
 
       function postMotion() {
         var postMotionOptions = window.postMotionOptions || {
-          stagger: 100,
+          stagger: 50,
           drag   : true
         };
         postMotionOptions.complete = function() {
