@@ -15,7 +15,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory
@@ -88,7 +88,21 @@ search:
   field: post
   format: html
   limit: 10000
+
+# hexo sitemap网站地图
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
   
-# Extensions
+# 生成RSS
 ## Plugins: http://hexo.io/plugins/
 plugins: hexo-generate-feed
+
+# SSO 优化
+# npm install hexo-autonofollow --save
+nofollow:
+	enable: true
+	exclude:
+    - exclude1.com
+    - exclude2.com

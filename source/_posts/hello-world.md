@@ -1,7 +1,15 @@
 ---
 title: Hello World
-tags: 杂文
+tags: hexo
+categories: 
+  - 学习笔记
+  - 个人博客
+reward: false
+top: true
 ---
+
+![images.png](https://hexo-1252003557.cos.ap-chengdu.myqcloud.com/undefinedimages.png)
+
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
 <!--more-->
